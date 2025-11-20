@@ -3,20 +3,17 @@
 This project demonstrates model quantization of a simple MNIST image classifier using TensorFlow Lite. It explores dynamic range, float16, and full integer (int8) quantization techniques and compares their impact on accuracy, model size, and inference speed.
 
 ## Project Structure
-```
-image-quantization-project/
-│
-├─ main.py # Train and convert the MNIST model
-├─ evaluate.py # Evaluate accuracy, latency, and model size
-├─ models/ # All saved models
-│ ├─ original_model.h5
-│ ├─ quantized_model.tflite
-│ ├─ int8_quantized_model.tflite
-│ └─ float16_quantized_model.tflite
-├─ README.md # This file
-├─ requirements.txt # Python dependencies
-└─ .gitignore # Exclude venv, pycache, etc.
-```
+- **image-quantization-project/**
+  - `main.py` – Train and convert the MNIST model
+  - `evaluate.py` – Evaluate accuracy, latency, and model size
+  - **models/**
+    - `original_model.h5`
+    - `quantized_model.tflite`
+    - `int8_quantized_model.tflite`
+    - `float16_quantized_model.tflite`
+  - `README.md` – This file
+  - `requirements.txt` – Python dependencies
+  - `.gitignore` – Exclude venv, __pycache__, etc.
 
 ## Results
 
