@@ -44,20 +44,24 @@ venv\Scripts\activate
 
 # macOS/Linux
 source venv/bin/activate
+```
 
 2. **Install dependencies:**
 
+```bash
 pip install -r requirements.txt
-
+```
 3. **Train and convert models:**
 
+```bash
 python main.py
-
+```
 4. **Evaluate models:**
 
+```bash
 python evaluate.py
-
-Key Learnings:
+```
+**Key Learnings:**
 
 Training a Keras MNIST model and converting it to TFLite.
 
