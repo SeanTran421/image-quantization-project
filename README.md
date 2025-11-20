@@ -3,7 +3,7 @@
 This project demonstrates model quantization of a simple MNIST image classifier using TensorFlow Lite. It explores dynamic range, float16, and full integer (int8) quantization techniques and compares their impact on accuracy, model size, and inference speed.
 
 ## Project Structure
-
+```
 image-quantization-project/
 │
 ├─ main.py # Train and convert the MNIST model
@@ -16,7 +16,7 @@ image-quantization-project/
 ├─ README.md # This file
 ├─ requirements.txt # Python dependencies
 └─ .gitignore # Exclude venv, pycache, etc.
-
+```
 
 ## Results
 
